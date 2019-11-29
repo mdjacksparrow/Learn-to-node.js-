@@ -1,6 +1,9 @@
+//create a variable to store http module
 var http = require('http');
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('Hello World!');
-}).listen(8080);
+// create server Object 
+http.createServer(function (req,res) 
+{
+  res.write('Hello world');
+  res.end();
+}).listen(9524);
