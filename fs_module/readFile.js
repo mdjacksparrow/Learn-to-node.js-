@@ -1,13 +1,10 @@
 var http = require('http');
 var fs = require('fs');
 
-var server = http.createServer((req,res) => {
- fs.readFile('./resume.pdf',(err,data) => {
-  res.writeHead(200, { "Content-Type": "pdf" });
+http.createServer(function (req,res) {
+ fs.readFile('demoFile.html',function (err,data) {
+  res.writeHead(200,{'Content-Type':'text/html'});
   res.write(data);
-  console.log(data);
-  res.end();
+  res.end();  
  });
-});
-
-server.listen(8080);
+}).listen(8080);
