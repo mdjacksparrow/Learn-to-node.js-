@@ -1,0 +1,18 @@
+{
+  "name": "express-framework",
+  "version": "1.0.0",
+  "description": "Learn to express.js framework",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Mdjack",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+  "nodemon": "^2.0.1"
+  }
+}
