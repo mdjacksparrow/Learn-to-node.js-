@@ -1,5 +1,7 @@
-var Logger = require('./logger');
+// var Logger = require('./logger');
 
-const obj = new Demo();
+// const obj = new Demo();
 
-obj.on('message',(data) => console.log("Lister called !",data));
+// obj.on('message',(data) => console.log("Lister called !",data));
+
+console.log(__dirname)
