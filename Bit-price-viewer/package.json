@@ -1,0 +1,16 @@
+{
+  "name": "bit-price-viewer",
+  "version": "1.0.0",
+  "description": "Bit coin price viewer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mdjack",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "request": "^2.88.0"
+  }
+}

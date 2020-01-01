@@ -30,6 +30,6 @@ app.post('/bmi',(req,res) => {
 
 // console.log("C://Users/ELCOT/Desktop/Node/BMI-calc");
 
-app.listen(3000,() => {
+app.listen(4000,() => {
  console.log("server started at 3000");
 });
